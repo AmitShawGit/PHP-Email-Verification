@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 149, 34);
+    display: flex;
+    justify-content: center ;
+    height: 100vh;
+    align-items: center;
+    color: rgb(107, 107, 107);
+}
+.container{
+    background-color: white;
+    padding: 50px;
+}
+input{
+    border: 1px solid rgb(231, 149, 34);
+    margin: 5px;
+    padding: 7px;
+    width: 250px;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.874);
+   
+}
+button{
+    background-color: rgb(231, 149, 34);
+    padding: 8px;
+    color: white;
+    width: 150px;
+    border: 1px solid rgb(231, 149, 34);
+    border-radius: 5px;
+    margin: 10px 60px;
+}
+.text{
+    color: rgb(223, 0, 0);
+    font-size: 13px;
+}
+    
